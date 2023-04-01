@@ -14,7 +14,7 @@ video.Size = UDim2.new(1,0,1,0)
 local Name = "kurage.mp4"
 
 if not isfile(Name) then
-    writefile(Name, game:HttpGet("https://github.com/GauCandy/Playvid/raw/main/kurage.mp4?raw=true"))
+    writefile(Name, game:HttpGet("https://github.com/GauCandy/Playvid/blob/main/kurage.mp4?raw=true"))
 end
 
 video.Video = syn and getsynasset(Name) or getcustomasset(Name)
@@ -23,4 +23,4 @@ repeat task.wait() print("Retrying...") until video.Loaded
 
 video:Play()
 
-warn("Ko cs j đâu mà nhìn :)")
+warn("co the mat 10s de load")
